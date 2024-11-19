@@ -202,3 +202,8 @@ footer .social-links a:hover {
     text-align: left;
   }
 }
+@media(max-width:415px){
+  .btn-branding{
+    margin-bottom: 20px;
+  }
+}
