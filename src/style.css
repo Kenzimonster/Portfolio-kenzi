@@ -114,6 +114,9 @@ p {
   border-radius: 10px;
   margin-top: 60px;
 }
+.about-list ul{
+  padding-left: 0 !important;
+}
 nav {
   background: var(--background-color);
   padding: 10px 20px 0px;
@@ -200,5 +203,8 @@ footer .social-links a:hover {
   .content-container {
     text-align: center;
     padding: 60px 0;
+  }
+  .about-list li{
+    text-align: left;
   }
 }
