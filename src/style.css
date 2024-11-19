@@ -119,26 +119,20 @@ p {
 }
 nav {
   background: var(--background-color);
-  padding: 10px 20px 0px;
+  padding: 10px 20px 0px !important;
   border-radius: 12px;
-}
-nav ul {
-  padding-top: 13px;
-}
-nav li {
-  display: inline;
-  font-size: 16px;
-  list-style: none;
-  padding-left: 10px;
+  margin: 0 auto;
+  max-width: 92%;
 }
 nav a {
-  color: var(--secondary-color);
+  font-size: 16px !important;
+  color: var(--secondary-color) !important;
   text-decoration: none;
   transition: all 100ms ease-in-out;
 }
 nav a:hover,
-nav li.active a {
-  color: var(--branding-color);
+nav .active  {
+  color: var(--branding-color) !important;
 }
 footer {
   margin: 60px 0px;

@@ -14,28 +14,29 @@
   <title>Kaidance Garbutt - Front-end Developer- Portfolio</title>
 </head>
 <body>
- <div class="container fixed-top">
-      <nav class="d-flex justify-content-between">
-        <a href="/" title="Homepage">
-          <img src="./src/images/mushroomgonblin.jpg" alt="Mushroom Goblin logo" class="logo" />
+ <nav class="navbar navbar-expand-md fixed-top ">
+        <div class="container-fluid ">
+        <a class="navbar-brand" href="/" title="Homepage">
+          <img
+            src="./src/images/mushroomgonblin.jpg"
+            alt="Mushroom Goblin logo"
+            class="logo"
+          />
           <span class="d-none d-md-inline">Kaidance (Kenzi) Garbutt</span><span class="d-inline d-lg-none">Kenzi</span>
         </a>
-        <ul>
-          <li class="active">
-            <a href="/" title="Homepage">Home</a>
-          </li>
-          <li>
-            <a href="./aboutMe.html" title="About Kaidance">About</a>
-          </li>
-          <li>
-            <a href="./projectsPage.html" title="My Projects Page">Projects</a>
-          </li>
-          <li>
-            <a href="./aboutMe.html#contact" title="Contact Me Page">Contact</a>
-          </li>
-        </ul>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+       <div class="collapse navbar-collapse justify-content-md-end" id="navbarNavAltMarkup">
+         <div class="navbar-nav ">
+           <a class="nav-link" href="/" title="Homepage">Home</a>
+           <a class="nav-link" href="./aboutMe.html" title="About Kaidance">About</a>          
+           <a class="nav-link active" href="./projectsPage.html" title="My Projects Page">Projects</a>
+           <a class="nav-link " href="./aboutMe.html#contact" title="Contact Me Page">Contact</a>
+         </div>
+        </div>
+      </div>
       </nav>
-    </div>
     <div class="hero">
       <p>🙋🏻Hi, I am</p>
       <h1>Kaidance <span class="nicname">(Kenzi)</span> Garbutt</h1>
